@@ -1,2 +1,4 @@
 # JavaScript-Lessons1
-jaVa
+JaVa
+
+[x] Landscape or Portrait.js has been completed
