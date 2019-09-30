@@ -5,7 +5,7 @@
     <noscript><h1 style="color:red;">JavaScript needs to be enabled in Settings</h1></noscript> <!-- Checks browser settings for JavaScript -->
 
     <meta charset="utf-8">
-    <meta name="author" content="Mark Mercer">
+    <meta name="author" content="Ahmed Alrahbawi">
     <meta name="description" content="JavaScript Assignemnts, output to console"> <!-- Webpage Description to poplulate search engines like Google-->
     <meta name="keywords" content="JavaScript, Console"> <!-- Key words for searching -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,15 +36,15 @@
         <a><strong>Enter the values of width and height below ...</strong></a>
 
         <p>
-          <label for="textfield1">Width: </label>
+          <label for="textfield">Width: </label>
           <input name="textfield1" type="text" id="textfield1">
-          <a id="validityTest1">See the Alert</a>
+            <a id="validityTest1">See the Alert</a>
         </p>
 
         <p>
           <label for="textfield2">Height: </label>
           <input name="textfield2" type="text" id="textfield2">
-          <a id="validityTest2">See the Alert</a>
+            <a id="validityTest2">See the Alert</a>
         </p>
 
         <!-- Submit Button -->
@@ -52,7 +52,7 @@
         <button type="button" onclick="main()">Submit</button>
         <br>
         <h3>The Answer is:
-          <a>What is the answer?</a>
+          <a id="answer">What is the answer?</a>
         </h3>
         <br><br><br>
 
@@ -60,28 +60,24 @@
         <!-- Future: make this illustrative of the example to understand the problem -->
         <fieldset>
           <legend>Case Study</legend>
+          <p>Vocob</p>
           <div>
-            <ul>
-              <li> Width is greater than Height, return Landacpe
-              <li> Width is less than Height, return Portrait
-              <li> Width is equal to Height, return Square
-            </ul>
-          </div>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" nalue="checkbox1" id="CheckboxGroup1_0">
-            Checkbox 1
-          </label>
-          <br>
-          <label>
-            <input type="checkbox" name="CheckboxGroup1" nalue="checkbox2" id="CheckboxGroup1_1">
-            Checkbox 2
-         </label>
-         <br>
-         <label>
-          <input type="checkbox" name="CheckboxGroup1" nalue="checkbox3" id="CheckboxGroup1_2">
-          Checkbox 3
-        </label>
-        <br>
+            <button type="button" onclick="checkboxes()">Submit</button>
+            <br><br>
+            <label>
+              <input type="checkbox" name="Checkbox1" nalue="checkbox1" id="Checkbox1">
+              <a>Width is greater than Height: </a><a id="checkbox1_answer">Answer?</a>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="Checkbox2" nalue="checkbox2" id="Checkbox2">
+              <a>Width is less than Height: </a><a id="checkbox2_answer">Answer?</a>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" name="Checkbox3" nalue="checkbox3" id="Checkbox3">
+              <a>Width is equal to Height: </a><a id="checkbox3_answer">Answer?</a>
+            </label>
         </fieldset>
 
       </article>
@@ -89,7 +85,7 @@
 
     <br><br><br>
 
-    <script src="../scripts/LandScape or Portrait.js"></script>
+    <script src="../scripts/landscapeorportrait.js"></script>
 
   </body>
 
@@ -98,7 +94,7 @@
     <!--  Date Accessed: 20180920 -->
     <p><strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
       <em><a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583" target="_blank">- Michell Kapor</a></em></p>
-    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+    <p>&copy Ahmed Alrahbawi, powered GitHub</p>
   </footer>
 
 </html>

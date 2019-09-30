@@ -1,10 +1,9 @@
-//console.log("Did you change my file name?");
-//console.log("You made it to the console!");
 
-let stop = false; //NAN Boolean Memory
+
+let stop = false;
 
 function testNaN (number) {
-  //console.log(stop);
+
   if ( isNaN (number) ) {
     stop = true;
     return "Type a real number"
@@ -44,9 +43,6 @@ function checkboxes() {
 // This coding illustrates the advanced method
 function main() {
   //console.log("It works");
-
-  //checkboxes();
-
 
   let firstNumber, secondNumber, text;
 
