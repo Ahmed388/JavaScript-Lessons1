@@ -70,7 +70,7 @@ function checkboxes() {
 function main() {
   //console.log("It works");
 
-  let firstNumber, secondNumber, thirdNumber;
+  let firstNumber, secondNumber, thirdNumber, fourthNumber, fithNumber;
 
   //Get the Width-value from id=textfield1
   firstNumber = document.getElementById('textfield1').value;
@@ -86,9 +86,21 @@ function main() {
 
   //Get the Height-value from id=textfield2
   thirdNumber = document.getElementById('textfield3').value;
-  //testNaN (secondNumber);
+  //testNaN (Third);
   document.getElementById('validityTest3').innerHTML = alert ( testNaN (thirdNumber));
   document.getElementById('validityTest3').innerHTML = testNaN (thirdNumber);
+
+  //Get the Height-value from id=textfield2
+  thirdNumber = document.getElementById('textfield4').value;
+  //testNaN (fourth);
+  document.getElementById('validityTest4').innerHTML = alert ( testNaN (fourthNumber));
+  document.getElementById('validityTest4').innerHTML = testNaN (fourthNumber);
+
+  //Get the Height-value from id=textfield2
+  thirdNumber = document.getElementById('textfield5').value;
+  //testNaN (Third);
+  document.getElementById('validityTest5').innerHTML = alert ( testNaN (fifthNumber));
+  document.getElementById('validityTest5').innerHTML = testNaN (fifthNumber);
 
 
   //Illustrates one example of character escapes
