@@ -1,67 +1,72 @@
+
 <!DOCTYPE html>
-
-<html>
-<body style="background-color:cyan;">
-
-
-
 <html lang="en" dir="ltr">
   <head>
 
     <noscript><h1 style="color:red;">JavaScript needs to be enabled in Settings</h1></noscript> <!-- Checks browser settings for JavaScript -->
 
     <meta charset="utf-8">
-    <meta name="author" content="Bemnet Gelagay">
-    <meta name="description" content="JavaScript Assignemnts, output to console"> <!-- Webpage Description to poplulate search engines like Google-->
-    <meta name="keywords" content="JavaScript, Console"> <!-- Key words for searching -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>I'm Learning Javacript</title>
+    <meta name="author"content="Ahmed">
+    <meta name="description"content="Intermediate JavaScript Lessons">
+    <meta name="keywords"content="JavaScript, Variables, coding, algorithm, lessons, computerscience, cs20, project">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>demerit points</title>
   </head>
-  <body>
 
-    <header><h1>Demerit Points</h1></header>
-    <nav></nav>
-    <aside></aside>
-    <section>
-      <article>
-        <!-- -->
-        <form action="x.html" method="post" onsubmit="event.preventDefault();">
-        <!-- Ensures this FORM doesn't work with PHP or other server side scripting
-        languages-->
+
+  <html>
+<head>
+<style>
+body  {
+background-image: url("colors.gif");
+background-color: #cccccc;
+}
+</style>
+</head>
+<body>
+
+
+      <header><h1 style="color:blue">Demerit Points</h1></header>
+      <nav></nav>
+      <aside></aside>
+
+      <section>
+        <article>
+          <!--  -->
+          <form action="x.html" method="post" onsubmit="event.preventDefault();">
+
+        <br>
 
         <p>&nbsp;</p>
-        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
-        <!-- Non-breaking real space, adds real space to webpage that is not
-        eliminated by browser (hard coded space)-->
 
-        <a><strong>Enter the values of speed below</strong></a>
-
+        <a><strong>Enter the values  ...</strong></a>
         <p>
-          <label for="textfield">Speed: </label>
+          <label for="textfield">Speed Limit: </label>
           <input name="textfield1" type="text" id="textfield1">
-            <a id="validityTest1">See the Alert</a>
+          <a id="validityTest1">See the Alert</a>
+          <br>
+          <a>Note: if nothing entered, speed limit will be <strong>70 km/h</strong></a>
         </p>
 
+        <p>
+          <label for="textfield2">Speed for demerit calculation: </label>
+          <input name="textfield2" type="text" id="textfield2">
+          <a id="validityTest2">See the Alert</a>
+        </p>
 
         <!-- Submit Button -->
         <br>
         <button type="button" onclick="main()">Submit</button>
         <br>
-        <h3>The speed is:
-          <a a id="answer">What is the speed?</a>
+        <h3>
+          <a>Speed limit entered is </a><a id="speedLimit">70 km/h</a>
+          <br>
+          <a>Speed Entered Above is </a><a id="speed">...</a>
+          <br>
+          <a id="answer">for ___ Demerit Points</a>
         </h3>
         <br><br><br>
 
+      <script src="../javaScript/dermitpoints.js"></script>
 
-
-      </article>
-    </section>
-
-    <br><br><br>
-
-    <script src="../javaScript/dermitpoints.js"></script>
-
-  </body>
-
-</html>
+    </body>
