@@ -12,4 +12,4 @@ JaVa, Includes: Landscape or Portrait, Max of Two Numbers, Demerit Points, Order
 
 - [x] Operators
 
-/&copy Ahmed Alrahbawi, 2019
+© Ahmed Alrahbawi, 2019
