@@ -6,7 +6,7 @@ JaVa, Includes: Landscape or Portrait, Max of Two Numbers, Demerit Points, Order
 - [x] orderinggrades
 - [x] FizzBuzz
 - [x] Demerit Points
-- [] modulus
+- [x] modulus
 
 #External
 
